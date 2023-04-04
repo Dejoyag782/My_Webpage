@@ -1,0 +1,146 @@
+@font-face {
+  font-family: pFont;
+  src: url(sansation_light.woff);
+}
+body{
+    text-align: center;
+    align-items: center;
+    background-color: #111443;
+}
+nav {
+			text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111443;
+    color: skyblue;
+    border-width: 0 0 5px 0;
+    border-color: grey;
+    border-style: solid;
+    
+    /*to make it stick at top*/
+    width: 100%;
+    
+    
+    
+}
+header{
+  background-image: url('http://via.placeholder.com/1920x1080.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px;
+}
+header div{
+    text-align: center;
+    align-items: center;
+    color: skyblue;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;	
+	justify-content: space-between;
+	
+}
+
+nav ul li {
+	margin: auto;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #95f5ff;
+	border-radius: 5px;
+	transition: background-color 0.2s ease;
+	
+}
+
+nav ul li a:hover {
+	background-color: gray;
+	color: red;
+}
+
+main {
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    border-width: 5px;
+    padding: 10px;
+    background-color: #111443 ;
+    color: #00ffff;
+    border-color: gray;
+    
+    
+}
+main .contents{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contents h1{
+    text-align: center;
+    margin: auto;
+    margin: 5px;
+}
+.contents section{
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin: 10px 5px 5px 5px;
+    border-color: #0c148e;
+    background-color: gray;
+    
+}
+.contents section ul{
+    text-align: center;
+    
+}
+.contents section ul li{
+    text-align: left;
+    
+}
+.contents p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12pt;
+    font-family: pFont;
+}
+.contents section{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: #bfeaff;
+    
+}
+.contents section img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+.contents section form{
+    max-width: 70%;
+    height: auto;
+    border-radius: 20px;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.contents section:hover{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: yellowgreen;
+    border-color: yellowgreen;
+    background-color: yellow;
+    padding: 10px;
+}
+.contents section p:hover{
+    color: sienna;
+}
+footer{
+			margin: 120px 20px 20px 20px;
+    color: white;
+    padding: 0 0 50px 0;
+}
