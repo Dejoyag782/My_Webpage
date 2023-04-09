@@ -29,6 +29,7 @@ header{
   background-attachment: fixed;
   background-size: cover;
   padding: 30px;
+font-size: large;
 }
 header div{
     text-align: center;
@@ -100,6 +101,7 @@ main .contents{
 }
 .contents section ul li{
     text-align: left;
+color: red;
     
 }
 .contents p{
